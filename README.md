@@ -39,3 +39,7 @@ The scripts in `src/` read and write `corpus/`, `model/`, `input/` and `tmp/` ne
 5. `wordvec.py benchmark <shared_vocab> <models...>` and `bench.py <model>` compare models on UMLS synonyms: for one name of each concept, the rank at which another name with the same CUI first appears among its nearest neighbours (lower is better).
 
 The UMLS files (`concepts.txt`, `umls_concepts.txt`, `cui_pstr`) are not included; they come from a licensed UMLS release.
+
+## License
+
+[Apache-2.0](LICENSE)
